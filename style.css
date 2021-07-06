@@ -8,9 +8,12 @@ h1{
 .font-color{
     color: crimson;
 }
+.color-green{
+    color: green;
+}
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 .half-width{
     width:50%;
@@ -19,6 +22,9 @@ h1{
 .half-width img{
     width:80%;
 }
+.half-width p{
+    color: teal;
+}
 #order-button{
     text-decoration: none;
     background-image: linear-gradient(tomato, green);
@@ -26,3 +32,34 @@ h1{
     padding:5px 10px;
     border-radius: 20px;
 }
+#contact-button{
+    text-decoration: none;
+    background-image: linear-gradient(green,tomato);
+    color:white;
+    padding:10px 50px;
+    font-weight: 500;
+    border-radius: 25px;
+}
+.banner-image{
+    background-image: url(shapes/7.png);
+    background-size:1350px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+}
+.third-width{
+    width:25%;
+    padding:3%;
+    margin: 3%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+.third-width img{
+    width:100%;
+}
+.recipes{
+    text-align: center;
+}
+.recipes h1{
+    color:lightslategrey
+}
+
